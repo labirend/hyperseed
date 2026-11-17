@@ -1,0 +1,465 @@
+{
+    "version": "3.0",
+    "categories": [
+        {
+            "id": "music",
+            "label": "Müzik ve Enstrümanlar",
+            "englishLabel": "Music & Instruments",
+            "subcategories": [
+                {
+                    "id": "music_strings",
+                    "label": "Telli Çalgılar",
+                    "englishLabel": "String Instruments",
+                    "items": [
+                        {"id": "ms_01", "text": "Akor basmayı öğrenmek", "englishText": "Learn basic guitar chords", "difficulty": 2, "tags": ["kolay", "başlangıç"]},
+                        {"id": "ms_02", "text": "Gitar teli换个换名声", "englishText": "Practice guitar scale exercises", "difficulty": 3, "tags": ["teknik", "odak"]},
+                        {"id": "ms_03", "text": "Parmak arpeggio çalışmaları", "englishText": "Practice fingerpicking arpeggios", "difficulty": 4, "tags": ["ritim", "el"]},
+                        {"id": "ms_04", "text": "Keman için vibrato çalışması", "englishText": "Practice violin vibrato technique", "difficulty": 5, "tags": ["teknik", "zor"]},
+                        {"id": "ms_05", "text": "Bas gitar ile groove tutturmak", "englishText": "Lock in a groove on bass guitar", "difficulty": 3, "tags": ["ritim", "enerji"]},
+                        {"id": "ms_06", "text": "Ukulele ile bir şarkı çalmak", "englishText": "Play a song on the ukulele", "difficulty": 2, "tags": ["neşe", "kolay"]},
+                        {"id": "ms_07", "text": "Klasik gitar parçası öğrenmek", "englishText": "Learn a classical guitar piece", "difficulty": 4, "tags": ["odak", "sanat"]},
+                        {"id": "ms_08", "text": "Davul Lawn nıJuly etüdü yapmak", "englishText": "Do a cello étude", "difficulty": 4, "tags": ["zihin", "sakin"]},
+                        {"id": "ms_09", "text": "Elektro gitar ton Ayarlama", "englishText": "Dial in an electric guitar tone", "difficulty": 3, "tags": ["teknik", "yaratıcı"]},
+                        {"id": "ms_10", "text": "Akor değişim pratiklesi", "englishText": "Practice chord transitions", "difficulty": 2, "tags": ["tekrar", "başlangıç"]}
+                    ]
+                },
+                {
+                    "id": "music_keys",
+                    "label": "Tuşlu Çalgılar",
+                    "englishLabel": "Keyboard Instruments",
+                    "items": [
+                        {"id": "mk_01", "text": "Piyano akor ilerlemeleri", "englishText": "Practice piano chord progressions", "difficulty": 3, "tags": ["teorik", "odak"]},
+                        {"id": "mk_02", "text": "Solfej çalışması yapmak", "englishText": "Do a sight-reading exercise", "difficulty": 4, "tags": ["göz", "teknik"]},
+                        {"id": "mk_03", "text": "Klavye üzerinde melodi bestelemek", "englishText": "Compose a melody on the keyboard", "difficulty": 3, "tags": ["yaratıcı", "beste"]},
+                        {"id": "mk_04", "text": "Piyano etüdü çalmak", "englishText": "Play a piano étude", "difficulty": 5, "tags": ["zor", "teknik"]},
+                        {"id": "mk_05", "text": "Synthesizer ile ses keşfetmek", "englishText": "Explore sounds on a synthesizer", "difficulty": 3, "tags": ["yaratıcı", "teknoloji"]},
+                        {"id": "mk_06", "text": "Organ pedalı pratiği", "englishText": "Practice organ pedal technique", "difficulty": 5, "tags": ["koordinasyon", "zor"]},
+                        {"id": "mk_07", "text": "Akustik piyano bulmak", "englishText": "Find and play an acoustic piano", "difficulty": 2, "tags": ["keşif", "deneyim"]},
+                        {"id": "mk_08", "text": "Ritim participating pratiği", "englishText": "Practice rhythmic keyboard patterns", "difficulty": 3, "tags": ["ritim", "tekrar"]},
+                        {"id": "mk_09", "text": "Kulağa nota çıkarmak", "englishText": "Play notes by ear", "difficulty": 4, "tags": ["kulak", "müzik"]},
+                        {"id": "mk_10", "text": "Parmak egzersizleri yapmak", "englishText": "Do finger warm-up exercises", "difficulty": 1, "tags": ["ısıtma", "kolay"]}
+                    ]
+                },
+                {
+                    "id": "music_wind",
+                    "label": "Üflemeli Çalgılar",
+                    "englishLabel": "Wind Instruments",
+                    "items": [
+                        {"id": "mw_01", "text": "Nefes teknikleri egzersizi", "englishText": "Do breathing technique exercises", "difficulty": 2, "tags": ["nefes", "başlangıç"]},
+                        {"id": "mw_02", "text": "Dudak titreşimi çalışması", "englishText": "Practice embouchure exercises", "difficulty": 3, "tags": ["teknik", "dudak"]},
+                        {"id": "mw_03", "text": "Klarnet için parmak çalışmalesi", "englishText": "Practice clarinet fingerings", "difficulty": 3, "tags": ["parmak", "teknik"]},
+                        {"id": "mw_04", "text": "Mızıka ile melodi çalmak", "englishText": "Play a melody on the harmonica", "difficulty": 2, "tags": ["melodi", "kolay"]},
+                        {"id": "mw_05", "text": "Flüt OWNtonlama çalışması", "englishText": "Practice flute tone exercises", "difficulty": 4, "tags": ["ton", "teknik"]},
+                        {"id": "mw_06", "text": "Saksafonda cool bir riff öğrenmek", "englishText": "Learn a cool riff on the saxophone", "difficulty": 3, "tags": ["eğlence", "rift"]},
+                        {"id": "mw_07", "text": "Trompet için warm-up", "englishText": "Do a trumpet warm-up routine", "difficulty": 2, "tags": ["ısıtma", "nefes"]},
+                        {"id": "mw_08", "text": "Bas klarinet ile deneme yapmak", "englishText": "Experiment with bass clarinet", "difficulty": 4, "tags": ["keşif", "ton"]},
+                        {"id": "mw_09", "text": "Nefes kontrol egzersizi", "englishText": "Practice breath control exercises", "difficulty": 3, "tags": ["nefes", "dayanıklılık"]},
+                        {"id": "mw_10", "text": "Popüler bir melodiyi çalmak", "englishText": "Play a popular melody", "difficulty": 2, "tags": ["eğlence", "tanıdık"]}
+                    ]
+                },
+                {
+                    "id": "music_percussion",
+                    "label": "Vurmalı Çalgılar",
+                    "englishLabel": "Percussion Instruments",
+                    "items": [
+                        {"id": "mperc_01", "text": "Bateri ritim kalıpları öğrenmek", "englishText": "Learn drum rhythm patterns", "difficulty": 3, "tags": ["ritim", "başlangıç"]},
+                        {"id": "mperc_02", "text": "Darbuka ile ritim tutturmak", "englishText": "Play a rhythm on the darbuka", "difficulty": 3, "tags": ["ritim", "el"]},
+                        {"id": "mperc_03", "text": "El ritmi pratiği", "englishText": "Practice hand percussion rhythms", "difficulty": 2, "tags": ["el", "kolay"]},
+                        {"id": "mperc_04", "text": "Kaşık ile ritim tutmak", "englishText": "Play rhythms with spoons", "difficulty": 2, "tags": ["eğlence", "ev"]},
+                        {"id": "mperc_05", "text": "Bongo warm-up egzersizi", "englishText": "Do a bongo warm-up exercise", "difficulty": 2, "tags": ["ısıtma", "el"]},
+                        {"id": "mperc_06", "text": "Çelli ritim studyolu", "englishText": "Do a djembe rhythm study", "difficulty": 3, "tags": ["odak", "teknik"]},
+                        {"id": "mperc_07", "text": "Bateri double bass pratiği", "englishText": "Practice double bass drumming", "difficulty": 5, "tags": ["zor", "koordinasyon"]},
+                        {"id": "mperc_08", "text": "Ksenophone ile melodi çalmak", "englishText": "Play a melody on the xylophone", "difficulty": 3, "tags": ["melodi", "renk"]},
+                        {"id": "mperc_09", "text": "Marakas ile groove yapmak", "englishText": "Create a groove with maracas", "difficulty": 1, "tags": ["basit", "neşe"]},
+                        {"id": "mperc_10", "text": "Tüm vurmalılarla jam session", "englishText": "Jam session with all percussion", "difficulty": 4, "tags": ["yaratıcı", "eğlence"]}
+                    ]
+                },
+                {
+                    "id": "music_production",
+                    "label": "Müzik Prodüksiyonu",
+                    "englishLabel": "Music Production",
+                    "items": [
+                        {"id": "mprod_01", "text": "Dijital Ses İşleme Programı keşfetmek", "englishText": "Explore a Digital Audio Workstation", "difficulty": 3, "tags": ["teknoloji", "başlangıç"]},
+                        {"id": "mprod_02", "text": "808 bas sesi tasarlamak", "englishText": "Design an 808 bass sound", "difficulty": 3, "tags": ["ses", "yaratıcı"]},
+                        {"id": "mprod_03", "text": "Sample kit oluşturmak", "englishText": "Create a sample kit", "difficulty": 3, "tags": ["derleme", " organize"]},
+                        {"id": "mprod_04", "text": "Beat yapmak (tempo 90)", "englishText": "Make a beat at 90 BPM", "difficulty": 3, "tags": ["ritim", "beste"]},
+                        {"id": "mprod_05", "text": "Mikrofon düzeltme pratiği", "englishText": "Practice microphone techniques", "difficulty": 3, "tags": ["teknik", "kayıt"]},
+                        {"id": "mprod_06", "text": "Loop oluşturma çalışması", "englishText": "Create a loop exercise", "difficulty": 2, "tags": ["tekrar", "kolay"]},
+                        {"id": "mprod_07", "text": "Ses miksajı pratiği", "englishText": "Practice audio mixing", "difficulty": 4, "tags": ["teknik", "zor"]},
+                        {"id": "mprod_08", "text": "Elektronik müzik bestelemek", "englishText": "Compose electronic music", "difficulty": 4, "tags": ["yaratıcı", "beste"]},
+                        {"id": "mprod_09", "text": "Vokal kaydetme tekniği", "englishText": "Record vocal recording techniques", "difficulty": 3, "tags": ["kayıt", "vokal"]},
+                        {"id": "mprod_10", "text": "Müzik prodüksiyonu dersi izlemek", "englishText": "Watch a music production tutorial", "difficulty": 1, "tags": ["öğrenme", "pasif"]}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tech",
+            "label": "Teknoloji ve Bilim",
+            "englishLabel": "Technology & Science",
+            "subcategories": [
+                {
+                    "id": "tech_coding",
+                    "label": "Yazılım Geliştirme",
+                    "englishLabel": "Software Development",
+                    "items": [
+                        {"id": "tc_01", "text": "HTML ve CSS ile web sitesi yapmak", "englishText": "Build a website with HTML and CSS", "difficulty": 2, "tags": ["web", "başlangıç"]},
+                        {"id": "tc_02", "text": "Python ile küçük bir script yazmak", "englishText": "Write a small script with Python", "difficulty": 2, "tags": ["python", "basit"]},
+                        {"id": "tc_03", "text": "Veritabanı tasarımı yapmak", "englishText": "Design a database schema", "difficulty": 4, "tags": ["mantık", "planlama"]},
+                        {"id": "tc_04", "text": "API entegrasyonu yapmak", "englishText": "Integrate an API", "difficulty": 4, "tags": ["teknik", "bağlantı"]},
+                        {"id": "tc_05", "text": "Mobil uygulama prototipi oluşturmak", "englishText": "Create a mobile app prototype", "difficulty": 3, "tags": ["tasarım", "uygulama"]},
+                        {"id": "tc_06", "text": "Regex pratiği yapmak", "englishText": "Practice regular expressions", "difficulty": 3, "tags": ["mantık", "bulmaca"]},
+                        {"id": "tc_07", "text": "Bug düzeltme egzersizi", "englishText": "Do a debugging exercise", "difficulty": 3, "tags": ["sorun çözme", "mantık"]},
+                        {"id": "tc_08", "text": "GitHub'da açık kaynak projeye katkıda bulunmak", "englishText": "Contribute to an open source project", "difficulty": 4, "tags": ["topluluk", "deneyim"]},
+                        {"id": "tc_09", "text": "Kod refactoring çalışması", "englishText": "Do a code refactoring exercise", "difficulty": 3, "tags": ["temiz kod", " iyileştirme"]},
+                        {"id": "tc_10", "text": "Kendi blog motorunu yapmak", "englishText": "Build your own blog engine", "difficulty": 5, "tags": ["proje", "kapsamlı"]}
+                    ]
+                },
+                {
+                    "id": "tech_hardware",
+                    "label": "Donanım ve Elektronik",
+                    "englishLabel": "Hardware & Electronics",
+                    "items": [
+                        {"id": "th_01", "text": "Arduino ile LED yakmak", "englishText": "Light an LED with Arduino", "difficulty": 2, "tags": ["arduino", "başlangıç"]},
+                        {"id": "th_02", "text": "Raspberry Pi ile proje yapmak", "englishText": "Build a project with Raspberry Pi", "difficulty": 3, "tags": ["raspberry", "proje"]},
+                        {"id": "th_03", "text": "Lehimleme pratiği yapmak", "englishText": "Practice soldering techniques", "difficulty": 3, "tags": ["el", "teknik"]},
+                        {"id": "th_04", "text": "Sensör entegrasyonu yapmak", "englishText": "Integrate a sensor project", "difficulty": 4, "tags": ["donanım", "teknik"]},
+                        {"id": "th_05", "text": "Bilgisayarını temizlemek ve yükseltmek", "englishText": "Clean and upgrade your computer", "difficulty": 2, "tags": ["bakım", "donanım"]},
+                        {"id": "th_06", "text": "Devre kartı tasarlamak", "englishText": "Design a circuit board", "difficulty": 5, "tags": ["tasarım", "zor"]},
+                        {"id": "th_07", "text": "Robotik proje yapmak", "englishText": "Build a robotics project", "difficulty": 4, "tags": ["robotik", "proje"]},
+                        {"id": "th_08", "text": "3D baskı tasarımı yapmak", "englishText": "Create a 3D printing design", "difficulty": 3, "tags": ["3d", "tasarım"]},
+                        {"id": "th_09", "text": "IoT cihazı kurmak", "englishText": "Set up an IoT device", "difficulty": 4, "tags": ["iot", "bağlantı"]},
+                        {"id": "th_10", "text": "Elektronik devre şeması okumak", "englishText": "Read an electronic circuit diagram", "difficulty": 3, "tags": ["okuma", "mantık"]}
+                    ]
+                },
+                {
+                    "id": "tech_science",
+                    "label": "Bilim ve Araştırma",
+                    "englishLabel": "Science & Research",
+                    "items": [
+                        {"id": "tsc_01", "text": "Yıldız haritası incelemek", "englishText": "Study a star map", "difficulty": 2, "tags": ["astronomi", "görsel"]},
+                        {"id": "tsc_02", "text": "Küçük bir kimya deneyi yapmak", "englishText": "Do a small chemistry experiment", "difficulty": 3, "tags": ["kimya", "deney"]},
+                        {"id": "tsc_03", "text": "Bilimsel makale okumak", "englishText": "Read a scientific paper", "difficulty": 4, "tags": ["okuma", "odak"]},
+                        {"id": "tsc_04", "text": "Matematik problemi çözmek", "englishText": "Solve a math problem", "difficulty": 3, "tags": ["mantık", "bulmaca"]},
+                        {"id": "tsc_05", "text": "Fizik deneyi gözlemlemek", "englishText": "Observe a physics experiment", "difficulty": 3, "tags": ["fizik", "gözlem"]},
+                        {"id": "tsc_06", "text": "Doğa belgeseli izlemek", "englishText": "Watch a nature documentary", "difficulty": 1, "tags": ["pasif", "öğrenme"]},
+                        {"id": "tsc_07", "text": "Uzay haberi takip etmek", "englishText": "Follow space news", "difficulty": 1, "tags": ["astronomi", "güncel"]},
+                        {"id": "tsc_08", "text": "Biyoloji örnekleri incelemek", "englishText": "Examine biology specimens", "difficulty": 3, "tags": ["biyoloji", "gözlem"]},
+                        {"id": "tsc_09", "text": "Veri analizi pratiği yapmak", "englishText": "Practice data analysis", "difficulty": 4, "tags": ["veri", "mantık"]},
+                        {"id": "tsc_10", "text": "Bilim podcastsı dinlemek", "englishText": "Listen to a science podcast", "difficulty": 1, "tags": ["pasif", "dinleme"]}
+                    ]
+                },
+                {
+                    "id": "tech_digital",
+                    "label": "Dijital Araçlar",
+                    "englishLabel": "Digital Tools",
+                    "items": [
+                        {"id": "td_01", "text": "Not alma uygulaması kurmak", "englishText": "Set up a note-taking app", "difficulty": 1, "tags": ["organizasyon", "basit"]},
+                        {"id": "td_02", "text": "Bulut depolama düzenlemek", "englishText": "Organize cloud storage", "difficulty": 2, "tags": ["düzen", "organizasyon"]},
+                        {"id": "td_03", "text": "Şifre yöneticisi kurmak", "englishText": "Set up a password manager", "difficulty": 2, "tags": ["güvenlik", "organizasyon"]},
+                        {"id": "td_04", "text": "Sosyal medya analizi yapmak", "englishText": "Analyze social media metrics", "difficulty": 3, "tags": ["analiz", "veri"]},
+                        {"id": "td_05", "text": "Blog yazmak", "englishText": "Write a blog post", "difficulty": 2, "tags": ["yazı", "yaratıcı"]},
+                        {"id": "td_06", "text": "Sitenin hızını test etmek", "englishText": "Test website speed", "difficulty": 2, "tags": ["teknik", "test"]},
+                        {"id": "td_07", "text": "Yapay zeka aracı denemek", "englishText": "Try an AI tool", "difficulty": 2, "tags": ["yapay zeka", "keşif"]},
+                        {"id": "td_08", "text": "Dijital takvim düzenlemek", "englishText": "Set up a digital calendar", "difficulty": 1, "tags": ["organizasyon", "zaman"]},
+                        {"id": "td_09", "text": "E-posta aboneliklerini temizlemek", "englishText": "Clean up email subscriptions", "difficulty": 1, "tags": ["düzen", "temizlik"]},
+                        {"id": "td_10", "text": "Çevrimiçi portfolyo oluşturmak", "englishText": "Create an online portfolio", "difficulty": 3, "tags": ["tasarım", "kişisel"]}
+                    ]
+                },
+                {
+                    "id": "tech_gaming",
+                    "label": "Oyun ve Eğlence",
+                    "englishLabel": "Gaming & Entertainment",
+                    "items": [
+                        {"id": "tg_01", "text": "Masa oyunu kurallarını öğrenmek", "englishText": "Learn board game rules", "difficulty": 2, "tags": ["sosyal", "öğrenme"]},
+                        {"id": "tg_02", "text": "Bulmaca çözmek", "englishText": "Solve a puzzle game", "difficulty": 2, "tags": ["mantık", "bulmaca"]},
+                        {"id": "tg_03", "text": "Trivia yarışması yapmak", "englishText": "Play a trivia quiz", "difficulty": 2, "tags": ["bilgi", "eğlence"]},
+                        {"id": "tg_04", "text": "Retro oyun oynamak", "englishText": "Play a retro video game", "difficulty": 1, "tags": ["nostalji", "eğlence"]},
+                        {"id": "tg_05", "text": "Kart oyunu öğrenmek", "englishText": "Learn a card game", "difficulty": 2, "tags": ["kart", "strateji"]},
+                        {"id": "tg_06", "text": "Strateji oyunu oynamak", "englishText": "Play a strategy game", "difficulty": 3, "tags": ["strateji", "düşünce"]},
+                        {"id": "tg_07", "text": "Escape room bulmacası çözmek", "englishText": "Solve an escape room puzzle", "difficulty": 3, "tags": ["mantık", "zaman"]},
+                        {"id": "tg_08", "text": "Yerel oyun etkinliğine katılmak", "englishText": "Attend a local gaming event", "difficulty": 2, "tags": ["sosyal", "dışarı"]},
+                        {"id": "tg_09", "text": "Kendi oyununu tasarlamak", "englishText": "Design your own game", "difficulty": 4, "tags": ["yaratıcı", "tasarım"]},
+                        {"id": "tg_10", "text": "Oyun geliştirme dersi almak", "englishText": "Take a game development lesson", "difficulty": 3, "tags": ["öğrenme", "geliştirme"]}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "art",
+            "label": "Sanat ve El İşleri",
+            "englishLabel": "Art & Crafts",
+            "subcategories": [
+                {
+                    "id": "art_painting",
+                    "label": "Resim ve Çizim",
+                    "englishLabel": "Painting & Drawing",
+                    "items": [
+                        {"id": "ap_01", "text": "Karakalem temel geometri çizimi", "englishText": "Draw basic geometric shapes with pencil", "difficulty": 1, "tags": ["başlangıç", "kolay"]},
+                        {"id": "ap_02", "text": "Sulu boya deneme çalışması", "englishText": "Do a watercolor experiment", "difficulty": 2, "tags": ["renk", "deney"]},
+                        {"id": "ap_03", "text": "Portre çizimi pratiği", "englishText": "Practice portrait drawing", "difficulty": 4, "tags": ["insan", "detay"]},
+                        {"id": "ap_04", "text": "Perspektif çizim pratiği", "englishText": "Practice perspective drawing", "difficulty": 3, "tags": ["görsel", "teknik"]},
+                        {"id": "ap_05", "text": "Rastgele renklerle boyama", "englishText": "Paint with random colors", "difficulty": 1, "tags": ["rahat", "yaratıcı"]},
+                        {"id": "ap_06", "text": "Doğa resmi yapmak", "englishText": "Create a nature drawing", "difficulty": 2, "tags": ["dışarı", "gözlem"]},
+                        {"id": "ap_07", "text": "Siyah-beyaz kontür çizimi", "englishText": "Draw black and white contours", "difficulty": 2, "tags": ["kontrast", "çizgi"]},
+                        {"id": "ap_08", "text": "Hızlı çizim pratiği (5 dk)", "englishText": "Quick sketch practice (5 min)", "difficulty": 1, "tags": ["hızlı", "kolay"]},
+                        {"id": "ap_09", "text": "Pastel boya ile çalışmak", "englishText": "Work with pastels", "difficulty": 3, "tags": ["renk", "doku"]},
+                        {"id": "ap_10", "text": "Soyut sanat denemesi yapmak", "englishText": "Create an abstract art piece", "difficulty": 2, "tags": ["yaratıcı", "serbest"]}
+                    ]
+                },
+                {
+                    "id": "art_craft",
+                    "label": "El Sanatları",
+                    "englishLabel": "Handicrafts",
+                    "items": [
+                        {"id": "ac_01", "text": "Origami katlamak", "englishText": "Fold origami", "difficulty": 2, "tags": ["kağıt", "sabır"]},
+                        {"id": "ac_02", "text": "Mum yapmak", "englishText": "Make a candle", "difficulty": 2, "tags": ["kokulu", "el"]},
+                        {"id": "ac_03", "text": "Takı tasarımı yapmak", "englishText": "Design jewelry", "difficulty": 3, "tags": ["takı", "yaratıcı"]},
+                        {"id": "ac_04", "text": "Ahşap boyama yapmak", "englishText": "Paint on wood", "difficulty": 2, "tags": ["ahşap", "renk"]},
+                        {"id": "ac_05", "text": "Dokuma pratiği yapmak", "englishText": "Practice weaving", "difficulty": 3, "tags": ["dokuma", "sabır"]},
+                        {"id": "ac_06", "text": "Cam boyama denemesi", "englishText": "Try glass painting", "difficulty": 2, "tags": ["cam", "renk"]},
+                        {"id": "ac_07", "text": "Deri işçiliği denemesi", "englishText": "Try leather crafting", "difficulty": 3, "tags": ["deri", "el"]},
+                        {"id": "ac_08", "text": "Sepet örmek", "englishText": "Weave a basket", "difficulty": 3, "tags": ["örgü", "sabır"]},
+                        {"id": "ac_09", "text": "Kumaş baskısı yapmak", "englishText": "Do fabric printing", "difficulty": 2, "tags": ["kumaş", "baskı"]},
+                        {"id": "ac_10", "text": "Seramik heykel yapmak", "englishText": "Create a clay sculpture", "difficulty": 3, "tags": ["seramik", "heykel"]}
+                    ]
+                },
+                {
+                    "id": "art_digital",
+                    "label": "Dijital Sanat",
+                    "englishLabel": "Digital Art",
+                    "items": [
+                        {"id": "ad_01", "text": "Vektörel çizim yapmak", "englishText": "Create a vector illustration", "difficulty": 3, "tags": ["vektör", "tasarım"]},
+                        {"id": "ad_02", "text": "Piksel sanatı yapmak", "englishText": "Create pixel art", "difficulty": 2, "tags": ["piksel", "nostalji"]},
+                        {"id": "ad_03", "text": "Fotoğraf düzenleme pratiği", "englishText": "Practice photo editing", "difficulty": 3, "tags": ["fotoğraf", "düzenleme"]},
+                        {"id": "ad_04", "text": "Dijital karalama defteri tutmak", "englishText": "Keep a digital sketchbook", "difficulty": 1, "tags": ["günlük", "pratik"]},
+                        {"id": "ad_05", "text": "Dijital boyama pratiği", "englishText": "Practice digital painting", "difficulty": 3, "tags": ["boyama", "dijital"]},
+                        {"id": "ad_06", "text": "Mood board oluşturmak", "englishText": "Create a mood board", "difficulty": 1, "tags": ["ilham", "tasarım"]},
+                        {"id": "ad_07", "text": "Animasyonlu sticker yapmak", "englishText": "Create an animated sticker", "difficulty": 3, "tags": ["animasyon", "eğlence"]},
+                        {"id": "ad_08", "text": "3D modelleme pratiği", "englishText": "Practice 3D modeling", "difficulty": 4, "tags": ["3d", "teknik"]},
+                        {"id": "ad_09", "text": "Dijital kolaj yapmak", "englishText": "Create a digital collage", "difficulty": 2, "tags": ["kolaj", "yaratıcı"]},
+                        {"id": "ad_10", "text": "Yapay zeka ile sanat denemesi", "englishText": "Experiment with AI art", "difficulty": 2, "tags": ["yapay zeka", "keşif"]}
+                    ]
+                },
+                {
+                    "id": "art_writing",
+                    "label": "Yaratıcı Yazarlık",
+                    "englishLabel": "Creative Writing",
+                    "items": [
+                        {"id": "aw_01", "text": "5 dakikalık serbest yazma", "englishText": "5-minute freewriting session", "difficulty": 1, "tags": ["serbest", "kolay"]},
+                        {"id": "aw_02", "text": "Kısa hikaye yazmak", "englishText": "Write a short story", "difficulty": 3, "tags": ["hikaye", "yaratıcı"]},
+                        {"id": "aw_03", "text": "Şiir yazmak", "englishText": "Write a poem", "difficulty": 2, "tags": ["şiir", "duygusal"]},
+                        {"id": "aw_04", "text": "Günlük tutmak", "englishText": "Write a journal entry", "difficulty": 1, "tags": ["günlük", "düşünce"]},
+                        {"id": "aw_05", "text": "Karater profili oluşturmak", "englishText": "Create a character profile", "difficulty": 2, "tags": ["karakter", "planlama"]},
+                        {"id": "aw_06", "text": "Senaryo yazmak", "englishText": "Write a screenplay scene", "difficulty": 4, "tags": ["senaryo", "diyalog"]},
+                        {"id": "aw_07", "text": "Blog yazısı yazmak", "englishText": "Write a blog post", "difficulty": 2, "tags": ["blog", "paylaşım"]},
+                        {"id": "aw_08", "text": "Alternatif son yazmak", "englishText": "Write an alternate ending", "difficulty": 2, "tags": ["yaratıcı", "değişim"]},
+                        {"id": "aw_09", "text": "Mektup yazmak", "englishText": "Write a letter", "difficulty": 1, "tags": ["kişisel", "düşünce"]},
+                        {"id": "aw_10", "text": "Flash fiction challenge", "englishText": "Do a flash fiction challenge", "difficulty": 3, "tags": ["hızlı", "yaratıcı"]}
+                    ]
+                },
+                {
+                    "id": "art_perform",
+                    "label": "Sahne Sanatları",
+                    "englishLabel": "Performing Arts",
+                    "items": [
+                        {"id": "aperf_01", "text": "Doğaçlama yapmak", "englishText": "Do an improvisation exercise", "difficulty": 2, "tags": ["yaratıcı", "serbest"]},
+                        {"id": "aperf_02", "text": "Monolog çalışması yapmak", "englishText": "Practice a monologue", "difficulty": 3, "tags": ["diksiyon", "odak"]},
+                        {"id": "aperf_03", "text": "Kendi dans rutinini oluşturmak", "englishText": "Create your own dance routine", "difficulty": 3, "tags": ["dans", "hareket"]},
+                        {"id": "aperf_04", "text": "Kukla tiyatrosu denemek", "englishText": "Try puppet theater", "difficulty": 2, "tags": ["eğlence", "yaratıcı"]},
+                        {"id": "aperf_05", "text": "Sahne makyajı pratiği", "englishText": "Practice stage makeup", "difficulty": 3, "tags": ["makyaj", "görsel"]},
+                        {"id": "aperf_06", "text": "Sokak sanatçısı gibi performans", "englishText": "Do a street performer act", "difficulty": 3, "tags": ["dışarı", "cesaret"]},
+                        {"id": "aperf_07", "text": "Seslendirme pratiği yapmak", "englishText": "Practice voice acting", "difficulty": 2, "tags": ["ses", "diksiyon"]},
+                        {"id": "aperf_08", "text": "Mini bir oyun yazmak ve sahnelemek", "englishText": "Write and perform a short play", "difficulty": 4, "tags": ["yaratıcı", "sahne"]},
+                        {"id": "aperf_09", "text": "Dans videosu çekmek", "englishText": "Film a dance video", "difficulty": 2, "tags": ["video", "dans"]},
+                        {"id": "aperf_10", "text": "Açık mikrofon gecesine katılmak", "englishText": "Attend an open mic night", "difficulty": 4, "tags": ["cesaret", "sosyal"]}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fitness",
+            "label": "Spor ve Hareket",
+            "englishLabel": "Fitness & Movement",
+            "subcategories": [
+                {
+                    "id": "fit_cardio",
+                    "label": "Kardiyo",
+                    "englishLabel": "Cardio",
+                    "items": [
+                        {"id": "fc_01", "text": "İp atlamak", "englishText": "Jump rope", "difficulty": 3, "tags": ["hızlı", "kardiyo"]},
+                        {"id": "fc_02", "text": "Tempolu yürüyüş yapmak", "englishText": "Go for a brisk walk", "difficulty": 1, "tags": ["dışarı", "kolay"]},
+                        {"id": "fc_03", "text": "Dans etmek", "englishText": "Dance", "difficulty": 2, "tags": ["müzik", "eğlence"]},
+                        {"id": "fc_04", "text": "Koşu yapmak", "englishText": "Go for a run", "difficulty": 3, "tags": ["dışarı", "enerji"]},
+                        {"id": "fc_05", "text": "Merdiven çıkmak", "englishText": "Climb stairs", "difficulty": 2, "tags": ["basit", "bina"]},
+                        {"id": "fc_06", "text": "Bisiklet sürmek", "englishText": "Go cycling", "difficulty": 3, "tags": ["dışarı", "keyif"]},
+                        {"id": "fc_07", "text": "Yüzme yapmak", "englishText": "Go swimming", "difficulty": 3, "tags": ["su", "tüm vücut"]},
+                        {"id": "fc_08", "text": "Kardiyo rutini yapmak", "englishText": "Do a cardio routine", "difficulty": 3, "tags": ["ev", "ter"]},
+                        {"id": "fc_09", "text": "Zumba veya dans egzersizi", "englishText": "Do a Zumba or dance workout", "difficulty": 2, "tags": ["müzik", "keyif"]},
+                        {"id": "fc_10", "text": "Interval antrenman yapmak", "englishText": "Do interval training", "difficulty": 4, "tags": ["yoğun", "zaman"]}
+                    ]
+                },
+                {
+                    "id": "fit_strength",
+                    "label": "Kuvvet Antrenmanı",
+                    "englishLabel": "Strength Training",
+                    "items": [
+                        {"id": "fst_01", "text": "Şınav çekmek", "englishText": "Do push-ups", "difficulty": 2, "tags": ["üst vücut", "ev"]},
+                        {"id": "fst_02", "text": "Squat yapmak", "englishText": "Do squats", "difficulty": 2, "tags": ["bacak", "temel"]},
+                        {"id": "fst_03", "text": "Plank tutmak", "englishText": "Hold a plank", "difficulty": 2, "tags": ["core", "dayanıklılık"]},
+                        {"id": "fst_04", "text": "Dumbbell antrenmanı yapmak", "englishText": "Do a dumbbell workout", "difficulty": 3, "tags": ["alet", "kuvvet"]},
+                        {"id": "fst_05", "text": "Bilek şınavı pratiği", "englishText": "Practice wrist push-ups", "difficulty": 4, "tags": ["bilek", "zor"]},
+                        {"id": "fst_06", "text": "Direnç bandı ile çalışma", "englishText": "Work out with resistance bands", "difficulty": 2, "tags": ["band", "ev"]},
+                        {"id": "fst_07", "text": "Mekik çekmek", "englishText": "Do crunches", "difficulty": 2, "tags": ["karın", "basit"]},
+                        {"id": "fst_08", "text": "Kettlebell antrenmanı", "englishText": "Do a kettlebell workout", "difficulty": 3, "tags": ["kettlebell", "güç"]},
+                        {"id": "fst_09", "text": "İzometrik egzersizler", "englishText": "Do isometric exercises", "difficulty": 2, "tags": ["statik", "kolay"]},
+                        {"id": "fst_10", "text": "Barfiks pratiği", "englishText": "Practice pull-ups", "difficulty": 4, "tags": ["üst vücut", "zor"]}
+                    ]
+                },
+                {
+                    "id": "fit_flex",
+                    "label": "Esneklik ve Yoga",
+                    "englishLabel": "Flexibility & Yoga",
+                    "items": [
+                        {"id": "ff_01", "text": "Sabah esneme rutini yapmak", "englishText": "Do a morning stretch routine", "difficulty": 1, "tags": ["sabah", "kolay"]},
+                        {"id": "ff_02", "text": "Yoga pozu öğrenmek", "englishText": "Learn a yoga pose", "difficulty": 2, "tags": ["yoga", "denge"]},
+                        {"id": "ff_03", "text": "Nefes egzersizi yapmak", "englishText": "Do breathing exercises", "difficulty": 1, "tags": ["nefes", "sakin"]},
+                        {"id": "ff_04", "text": "Foam roller ile esneme", "englishText": "Stretch with a foam roller", "difficulty": 2, "tags": ["kas", "rahatlama"]},
+                        {"id": "ff_05", "text": "Gecelik yoga rutini", "englishText": "Do a bedtime yoga routine", "difficulty": 1, "tags": ["gece", "rahat"]},
+                        {"id": "ff_06", "text": "Yoga akışı oluşturmak", "englishText": "Create a yoga flow", "difficulty": 3, "tags": ["akış", "yaratıcı"]},
+                        {"id": "ff_07", "text": "Meditasyon yapmak", "englishText": "Meditate", "difficulty": 1, "tags": ["zihin", "sakin"]},
+                        {"id": "ff_08", "text": "Mobility çalışması yapmak", "englishText": "Do a mobility exercise", "difficulty": 2, "tags": ["hareket", "eklem"]},
+                        {"id": "ff_09", "text": "Derin esneme pratiği", "englishText": "Practice deep stretching", "difficulty": 2, "tags": ["esneklik", "rahat"]},
+                        {"id": "ff_10", "text": "Rehberli meditasyon dinlemek", "englishText": "Listen to a guided meditation", "difficulty": 1, "tags": ["pasif", "sakin"]}
+                    ]
+                },
+                {
+                    "id": "fit_team",
+                    "label": "Takım Sporları",
+                    "englishLabel": "Team Sports",
+                    "items": [
+                        {"id": "ft_01", "text": "Basketbol paslaşması yapmak", "englishText": "Practice basketball passing", "difficulty": 2, "tags": ["top", "sosyal"]},
+                        {"id": "ft_02", "text": "Voleybol smaç pratiği", "englishText": "Practice volleyball spikes", "difficulty": 3, "tags": ["top", "enerji"]},
+                        {"id": "ft_03", "text": "Futbol şut pratiği", "englishText": "Practice football shooting", "difficulty": 2, "tags": ["top", "dışarı"]},
+                        {"id": "ft_04", "text": "Badminton oynamak", "englishText": "Play badminton", "difficulty": 2, "tags": ["raaket", "keyif"]},
+                        {"id": "ft_05", "text": "Masa tenisi oynamak", "englishText": "Play table tennis", "difficulty": 2, "tags": ["hızlı", "eğlence"]},
+                        {"id": "ft_06", "text": "Takım stratejisi planlamak", "englishText": "Plan a team strategy", "difficulty": 3, "tags": ["strateji", "düşünce"]},
+                        {"id": "ft_07", "text": "Bowling oynamak", "englishText": "Go bowling", "difficulty": 1, "tags": ["eğlence", "sosyal"]},
+                        {"id": "ft_08", "text": "Ultimate frisbee oynamak", "englishText": "Play ultimate frisbee", "difficulty": 2, "tags": ["dışarı", "takım"]},
+                        {"id": "ft_09", "text": "Beyzbol pratiği yapmak", "englishText": "Practice baseball skills", "difficulty": 3, "tags": ["top", "koordinasyon"]},
+                        {"id": "ft_10", "text": "Kapalı spor salonu etkinliği", "englishText": "Indoor sports hall activity", "difficulty": 2, "tags": ["kapalı", "sosyal"]}
+                    ]
+                },
+                {
+                    "id": "fit_outdoor",
+                    "label": "Açık Hava Aktiviteleri",
+                    "englishLabel": "Outdoor Activities",
+                    "items": [
+                        {"id": "fo_01", "text": "Kamp kurmak", "englishText": "Set up a campsite", "difficulty": 3, "tags": ["doğa", "macera"]},
+                        {"id": "fo_02", "text": "Yürüyüş parkurunda yürümek", "englishText": "Walk a hiking trail", "difficulty": 2, "tags": ["doğa", "yürüyüş"]},
+                        {"id": "fo_03", "text": "Kano yapmak", "englishText": "Go canoeing", "difficulty": 3, "tags": ["su", "macera"]},
+                        {"id": "fo_04", "text": "Kaya tırmanışı yapmak", "englishText": "Go rock climbing", "difficulty": 4, "tags": ["tırmanma", "zor"]},
+                        {"id": "fo_05", "text": "Doğa fotoğrafçılığı yapmak", "englishText": "Do nature photography", "difficulty": 2, "tags": ["fotoğraf", "doğa"]},
+                        {"id": "fo_06", "text": "Koşu parkurunda koşmak", "englishText": "Run on a trail", "difficulty": 3, "tags": ["koşu", "doğa"]},
+                        {"id": "fo_07", "text": "Bisiklet turu yapmak", "englishText": "Go on a bike tour", "difficulty": 3, "tags": ["bisiklet", "keşif"]},
+                        {"id": "fo_08", "text": "Açık hava bootcamp", "englishText": "Outdoor bootcamp workout", "difficulty": 3, "tags": ["antrenman", "dışarı"]},
+                        {"id": "fo_09", "text": "Kuş gözlemi yapmak", "englishText": "Go birdwatching", "difficulty": 1, "tags": ["sakin", "doğa"]},
+                        {"id": "fo_10", "text": "Frisbee golf oynamak", "englishText": "Play disc golf", "difficulty": 2, "tags": ["eğlence", "dışarı"]}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "daily_life",
+            "label": "Gündelik Yaşam",
+            "englishLabel": "Daily Life",
+            "subcategories": [
+                {
+                    "id": "dl_home",
+                    "label": "Ev Düzeni",
+                    "englishLabel": "Home Organization",
+                    "items": [
+                        {"id": "dh_01", "text": "Çekmece düzenlemek", "englishText": "Organize a drawer", "difficulty": 1, "tags": ["düzen", "basit"]},
+                        {"id": "dh_02", "text": "Gardırop düzenlemek", "englishText": "Organize your closet", "difficulty": 2, "tags": ["giyim", "temizlik"]},
+                        {"id": "dh_03", "text": "Mutfak tezgahını düzenlemek", "englishText": "Organize kitchen counters", "difficulty": 1, "tags": ["mutfak", "düzen"]},
+                        {"id": "dh_04", "text": "Çöp poşetlerini boşaltmak", "englishText": "Take out the trash", "difficulty": 1, "tags": ["temizlik", "hızlı"]},
+                        {"id": "dh_05", "text": "Rafları yeniden dizmek", "englishText": "Rearrange shelves", "difficulty": 2, "tags": ["düzen", "dekor"]},
+                        {"id": "dh_06", "text": "Yatağı yapmak", "englishText": "Make the bed", "difficulty": 1, "tags": ["sabah", "hızlı"]},
+                        {"id": "dh_07", "text": "Toz almak", "englishText": "Dust the surfaces", "difficulty": 1, "tags": ["temizlik", "hızlı"]},
+                        {"id": "dh_08", "text": "Bulaşıkları yıkamak", "englishText": "Wash the dishes", "difficulty": 1, "tags": ["mutfak", "temizlik"]},
+                        {"id": "dh_09", "text": "Çamaşırları makineye atmak", "englishText": "Start a laundry load", "difficulty": 1, "tags": ["çamaşır", "basit"]},
+                        {"id": "dh_10", "text": "Evde küçük bir köşe düzenlemek", "englishText": "Set up a small corner of your home", "difficulty": 2, "tags": ["dekor", "düzen"]}
+                    ]
+                },
+                {
+                    "id": "dl_cook",
+                    "label": "Yemek ve Mutfak",
+                    "englishLabel": "Cooking & Kitchen",
+                    "items": [
+                        {"id": "dco_01", "text": "Bıçak bileme pratiği", "englishText": "Practice knife skills", "difficulty": 2, "tags": ["teknik", "mutfak"]},
+                        {"id": "dco_02", "text": "Yeni bir yemek tarifi denemek", "englishText": "Try a new recipe", "difficulty": 3, "tags": ["yeni", "deney"]},
+                        {"id": "dco_03", "text": "Haftalık yemek planı yapmak", "englishText": "Create a weekly meal plan", "difficulty": 2, "tags": ["planlama", "düzen"]},
+                        {"id": "dco_04", "text": "Ev yapımı ekmek yapmak", "englishText": "Bake homemade bread", "difficulty": 3, "tags": ["fırın", "sabır"]},
+                        {"id": "dco_05", "text": "Meyve smoothie yapmak", "englishText": "Make a fruit smoothie", "difficulty": 1, "tags": ["hızlı", "sağlıklı"]},
+                        {"id": "dco_06", "text": "Turşu yapmak", "englishText": "Make pickles", "difficulty": 3, "tags": ["konserve", "sabır"]},
+                        {"id": "dco_07", "text": "Ev yapımı makarna yapmak", "englishText": "Make homemade pasta", "difficulty": 3, "tags": ["hamur", "el"]},
+                        {"id": "dco_08", "text": "Farklı mutfaklardan yemek denemek", "englishText": "Try cuisines from different cultures", "difficulty": 2, "tags": ["keşif", "lezzet"]},
+                        {"id": "dco_09", "text": "Baharat karışımı oluşturmak", "englishText": "Create a spice blend", "difficulty": 2, "tags": ["baharat", "karışım"]},
+                        {"id": "dco_10", "text": "Mutfak aletlerini temizlemek", "englishText": "Clean kitchen tools", "difficulty": 1, "tags": ["temizlik", "basit"]}
+                    ]
+                },
+                {
+                    "id": "dl_care",
+                    "label": "Kişisel Bakım",
+                    "englishLabel": "Personal Care",
+                    "items": [
+                        {"id": "dpc_01", "text": "Cilt bakım rutini oluşturmak", "englishText": "Create a skincare routine", "difficulty": 1, "tags": ["cilt", "bakım"]},
+                        {"id": "dpc_02", "text": "Saç bakım maskesi yapmak", "englishText": "Make a hair mask", "difficulty": 1, "tags": ["saç", "bakım"]},
+                        {"id": "dpc_03", "text": "Yeni bir saç stili denemek", "englishText": "Try a new hairstyle", "difficulty": 2, "tags": ["saç", "değişim"]},
+                        {"id": "dpc_04", "text": "Ayak bakımı yapmak", "englishText": "Do foot care", "difficulty": 1, "tags": ["ayak", "rahat"]},
+                        {"id": "dpc_05", "text": "Kendine bulutlamakey damlac制成", "englishText": "Prepare a relaxing bath", "difficulty": 1, "tags": ["banyo", "rahat"]},
+                        {"id": "dpc_06", "text": "Tırnak bakımı yapmak", "englishText": "Do nail care", "difficulty": 1, "tags": ["tırnak", "bakım"]},
+                        {"id": "dpc_07", "text": "Güneş kremi sürmeyi hatırlamak", "englishText": "Remember to apply sunscreen", "difficulty": 1, "tags": ["cilt", "koruma"]},
+                        {"id": "dpc_08", "text": "Düzenli uyku rutini oluşturmak", "englishText": "Create a regular sleep routine", "difficulty": 2, "tags": ["uyku", "sağlık"]},
+                        {"id": "dpc_09", "text": "Meditasyon ve nefes pratiği", "englishText": "Practice meditation and breathing", "difficulty": 1, "tags": ["zihin", "sakin"]},
+                        {"id": "dpc_10", "text": "Günlük adım hedefi koymak", "englishText": "Set a daily step goal", "difficulty": 1, "tags": ["hedef", "hareket"]}
+                    ]
+                },
+                {
+                    "id": "dl_social",
+                    "label": "Sosyal Aktiviteler",
+                    "englishLabel": "Social Activities",
+                    "items": [
+                        {"id": "ds_01", "text": "Arkadaşlarla oyun gecesi yapmak", "englishText": "Have a game night with friends", "difficulty": 2, "tags": ["sosyal", "eğlence"]},
+                        {"id": "ds_02", "text": "Eski bir arkadaşı aramak", "englishText": "Call an old friend", "difficulty": 2, "tags": ["sosyal", "iletişim"]},
+                        {"id": "ds_03", "text": "Kahve buluşması ayarlamak", "englishText": "Arrange a coffee meetup", "difficulty": 2, "tags": ["sosyal", "rahat"]},
+                        {"id": "ds_04", "text": "Yeni bir kursa başlamak", "englishText": "Start a new class", "difficulty": 3, "tags": ["öğrenme", "sosyal"]},
+                        {"id": "ds_05", "text": "Topluluk etkinliğine katılmak", "englishText": "Attend a community event", "difficulty": 2, "tags": ["topluluk", "dışarı"]},
+                        {"id": "ds_06", "text": "Gönüllü çalışmaya katılmak", "englishText": "Volunteer for a cause", "difficulty": 3, "tags": ["topluluk", "yardım"]},
+                        {"id": "ds_07", "text": "Doğum günü partisi düzenlemek", "englishText": "Organize a birthday party", "difficulty": 3, "tags": ["parti", "planlama"]},
+                        {"id": "ds_08", "text": "Yemek daveti vermek", "englishText": "Host a dinner party", "difficulty": 3, "tags": ["yemek", "sosyal"]},
+                        {"id": "ds_09", "text": "Yürüyüşe arkadaş davet etmek", "englishText": "Invite a friend for a walk", "difficulty": 1, "tags": ["yürüyüş", "sosyal"]},
+                        {"id": "ds_10", "text": "Fotoğraf yürüyüşü yapmak", "englishText": "Go on a photo walk", "difficulty": 2, "tags": ["fotoğraf", "dışarı"]}
+                    ]
+                },
+                {
+                    "id": "dl_learn",
+                    "label": "Öğrenme ve Gelişim",
+                    "englishLabel": "Learning & Growth",
+                    "items": [
+                        {"id": "dl_01", "text": "Yeni bir dil öğrenmeye başlamak", "englishText": "Start learning a new language", "difficulty": 2, "tags": ["dil", "zihin"]},
+                        {"id": "dl_02", "text": "Podcasts dinlemek", "englishText": "Listen to a podcast", "difficulty": 1, "tags": ["pasif", "dinleme"]},
+                        {"id": "dl_03", "text": "İlginç bir belgesel izlemek", "englishText": "Watch an interesting documentary", "difficulty": 1, "tags": ["pasif", "görsel"]},
+                        {"id": "dl_04", "text": "Bir şey hakkında araştırma yapmak", "englishText": "Research something you're curious about", "difficulty": 2, "tags": ["araştırma", "merak"]},
+                        {"id": "dl_05", "text": "Online kurs izlemek", "englishText": "Watch an online course", "difficulty": 2, "tags": ["öğrenme", "video"]},
+                        {"id": "dl_06", "text": "Kitap özeti çıkarmak", "englishText": "Write a book summary", "difficulty": 2, "tags": ["okuma", "yazı"]},
+                        {"id": "dl_07", "text": "Yeni bir hobi hakkında okumak", "englishText": "Read about a new hobby", "difficulty": 1, "tags": ["okuma", "keşif"]},
+                        {"id": "dl_08", "text": "Beceri haritası oluşturmak", "englishText": "Create a skill map", "difficulty": 2, "tags": ["planlama", "hedef"]},
+                        {"id": "dl_09", "text": "Felsefe hakkında düşünmek", "englishText": "Reflect on a philosophy topic", "difficulty": 3, "tags": ["düşünce", "derin"]},
+                        {"id": "dl_10", "text": "Tarih belgeseli izlemek", "englishText": "Watch a history documentary", "difficulty": 1, "tags": ["tarih", "pasif"]}
+                    ]
+                }
+            ]
+        }
+    ]
+}

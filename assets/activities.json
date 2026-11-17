@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "text": "Gitar çalmak",
+    "tags": ["müzik", "enstrüman", "ev", "sanat"],
+    "energy": "medium",
+    "duration_min": 15
+  },
+  {
+    "id": "2",
+    "text": "Tespih çekmek",
+    "tags": ["meditasyon", "geleneksel", "düşük_enerji", "kısa"],
+    "energy": "low",
+    "duration_min": 5
+  },
+  {
+    "id": "3",
+    "text": "Ahşap boyamak",
+    "tags": ["sanat", "el_işi", "hobi", "yaratıcılık"],
+    "energy": "medium",
+    "duration_min": 30
+  },
+  {
+    "id": "4",
+    "text": "Rubik küp çözmek",
+    "tags": ["zeka", "bulmaca", "odak", "hızlı"],
+    "energy": "high",
+    "duration_min": 10
+  },
+  {
+    "id": "5",
+    "text": "Gayda çalmak",
+    "tags": ["müzik", "enstrüman", "nadir", "yüksek_ses"],
+    "energy": "high",
+    "duration_min": 20
+  },
+  {
+    "id": "6",
+    "text": "Temizlik yapmak",
+    "tags": ["rutin", "ev", "hareket"],
+    "energy": "medium",
+    "duration_min": 20
+  },
+  {
+    "id": "7",
+    "text": "Televizyon izlemek",
+    "tags": ["eğlence", "pasif", "düşük_enerji"],
+    "energy": "low",
+    "duration_min": 45
+  },
+  {
+    "id": "8",
+    "text": "Eski fotoğraflara bakmak",
+    "tags": ["nostalji", "düşük_enerji", "duygusal"],
+    "energy": "low",
+    "duration_min": 15
+  },
+  {
+    "id": "9",
+    "text": "Yeni bir kahve çeşidi denemek",
+    "tags": ["gurme", "mutfak", "keyif"],
+    "energy": "low",
+    "duration_min": 10
+  },
+  {
+    "id": "10",
+    "text": "Şiir yazmak",
+    "tags": ["yaratıcılık", "edebiyat", "duygusal"],
+    "energy": "medium",
+    "duration_min": 15
+  },
+  {
+    "id": "11",
+    "text": "Balkonda hava almak",
+    "tags": ["rahatlama", "dışarı", "kısa"],
+    "energy": "low",
+    "duration_min": 5
+  },
+  {
+    "id": "12",
+    "text": "Çiçek sulamak",
+    "tags": ["doğa", "ev", "kısa", "sorumluluk"],
+    "energy": "low",
+    "duration_min": 5
+  },
+  {
+    "id": "13",
+    "text": "Origami yapmak",
+    "tags": ["sanat", "el_işi", "odak", "kağıt"],
+    "energy": "medium",
+    "duration_min": 10
+  },
+  {
+    "id": "14",
+    "text": "Sudoku çözmek",
+    "tags": ["zeka", "bulmaca", "sessiz"],
+    "energy": "medium",
+    "duration_min": 15
+  },
+  {
+    "id": "15",
+    "text": "Wikipedia'da rastgele bir madde okumak",
+    "tags": ["bilgi", "okuma", "merak"],
+    "energy": "low",
+    "duration_min": 10
+  }
+]
